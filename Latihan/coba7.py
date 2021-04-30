@@ -6,9 +6,10 @@ for letter in "Programming":
 print("Good bye")
 
 
-count = 0
-while (count < 5):
-    print(count, "kurang dari 5")
-    count = count + 1
-else:
-    print(count, "tidak kurang dari 5")
+a = input("a:")
+b = 2
+while (a > 2):
+    a //= 3
+    b *= 2
+    print(b)
+
